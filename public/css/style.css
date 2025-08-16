@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+
+.navbar{
+    height: 5rem;
+    background-color: #fff;
+
+}
+
+.fa-compass{
+    color: red;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222;
+}
+
+.f-info_links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info_links a:hover{
+    text-decoration: underline;
+}
+
+.f-info{
+    background-color: #ebebeb;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+
+.f-info_links,
+.f-info_social,
+.f-info_brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info_social i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0rem !important;
+
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-text p{
+    font-weight: 400;
+}
+
+/* card overlay effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: #fff;
+}
+
+.add-btn{
+    background-color: red !important;
+    border: none !important;
+}
+
+.edit-btn{
+    background-color: red !important;
+    border: none !important;
+}
+
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#map {
+    width: 80vh;
+    height: 400px;
+    border-radius: 1rem;
+    margin: 2rem auto;      /* centers horizontally and adds vertical space */
+}
