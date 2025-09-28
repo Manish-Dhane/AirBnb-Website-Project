@@ -46,7 +46,7 @@ app.use(express.static(path.join(__dirname,'/public')));
 const store = MongoStore.create({
   mongoUrl: dbUrl,
   crypto:{
-    secret: process.env.SECRETE;
+    secret: process.env.SECRETE
   },
   touchAfter: 24 * 60 * 60
 });
@@ -116,6 +116,6 @@ app.use((err, req, res, next) => {
   res.status(statusCode).render("error.ejs", { message });
 });
 
-app.listen(3000, () => {
-  console.log("server is listening to port 3000");
+app.listen(8080, () => {
+  console.log("server is listening to port 8080");
 });
