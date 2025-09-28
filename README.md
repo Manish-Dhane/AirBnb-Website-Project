@@ -196,7 +196,7 @@ This project is licensed under the ISC License.
 
 **Manish Dhane**
 - GitHub: [@Manish-Dhane](https://github.com/Manish-Dhane)
-- LinkedIn: [Connect with me](https://linkedin.com/in/your-profile)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/manish-dhane/)
 
 ## 🙏 Acknowledgments
 
